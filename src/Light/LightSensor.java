@@ -18,6 +18,7 @@ public class LightSensor
         float[] sample = new float[light.sampleSize()];
         
         LCD.clear();
+    
         LCD.drawString("Reading Light...", 0, 0);
 
         while (!Button.ESCAPE.isDown()) // Exit if ESCAPE button is pressed
