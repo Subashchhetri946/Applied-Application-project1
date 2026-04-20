@@ -25,8 +25,8 @@ public class TestMotors {
             // Move Forward
             LCD.clear();
             LCD.drawString("Moving forward...", 0, 0);
-            Motor.A.setSpeed(600);
-            Motor.B.setSpeed(600);
+            Motor.A.setSpeed(800);
+            Motor.B.setSpeed(800);
             Motor.A.forward();
             Motor.B.forward();
 
