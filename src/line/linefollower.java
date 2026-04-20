@@ -19,8 +19,8 @@ public class linefollower {
         float[] sample = new float[redMode.sampleSize()];
 
         // Set base motor speed
-        int baseSpeed = 250;
-        int turnSpeed = 150; // Speed when adjusting
+        int baseSpeed = 300;
+        int turnSpeed = 200; // Speed when adjusting
 
         Motor.A.setSpeed(baseSpeed);
         Motor.B.setSpeed(baseSpeed);
